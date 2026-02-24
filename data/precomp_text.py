@@ -132,7 +132,7 @@ def main():
 
     for token_mode in token_modes:
         print(f'Processing token_mode={token_mode}')
-        output_path = os.path.join(args.output_path, f"tom-and-jerry-{args.video_length}s-{args.max_length}{'-'+token_mode}")
+        output_path = os.path.join(args.output_path, f"text-{args.video_length}s-{args.max_length}{'-'+token_mode}")
         process_jsonl(model, tokenizer, args.input_jsonl_file, output_path, 
                     args.max_length, batch_size=args.batch_size, token_mode=token_mode)
 

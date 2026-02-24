@@ -46,9 +46,6 @@ Please follow the instructions [here](https://github.com/THUDM/CogVideo/blob/mai
 
 > **Note**: These are the pretrained model weights, not the final model weights used to generate our demonstration videos.
 
-## Annotation Download
-Text annotations for the 3-second Tom and Jerry segments used during training can be accessed [here](https://test-time-training.github.io/video-dit/assets/annotations.zip).
-
 ## Other Documentation
 - [Dataset](./docs/dataset.md)
 - [Training](./docs/training.md)
